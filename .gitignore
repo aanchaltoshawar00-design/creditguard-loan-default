@@ -1,0 +1,18 @@
+# virtual environment
+venv/
+.venv/
+
+# data (too large for GitHub; download from Kaggle instead)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.csv
+*.db
+*.sqlite
+
+# notebooks / python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
